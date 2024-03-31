@@ -48,7 +48,7 @@ main {
   font-size: 0.88rem;
   font-weight: 800;
   padding-left: 12px;
-  padding-right: 12px;
+  padding-right: 13px;
   padding-top: 6px;
   padding-bottom: 6px;
   border-radius: 5px;
@@ -109,3 +109,37 @@ footer {
   position: absolute;
   bottom: 0;
 }
+
+@media screen and (max-width: 375px) {
+  main {
+    width: 327px;
+    filter: drop-shadow(9px 9px black);
+  }
+
+  .blogimage {
+    width: 279px;
+    height: auto;
+  }
+
+  .content {
+    width: 279px;
+  }
+
+  .catagory {
+    font-size: 0.75rem;
+  }
+
+  .publishdate {
+    font-size: 0.75rem;
+  }
+
+  .title {
+    font-size: 1.25rem;
+  }
+
+  .description {
+    font-size: 0.88rem;
+  }
+}
+
+
