@@ -33,7 +33,6 @@ main {
 }
 
 .card-img {
-  /* background-color: aquamarine; */
   background-image: url(../assets/images/illustration-article.svg);
   background-repeat: no-repeat;
   background-position: center;
@@ -125,11 +124,6 @@ footer {
     width: 327px;
     filter: drop-shadow(9px 9px black);
   }
-
-  /* .blogimage {
-    width: 279px;
-    height: auto;
-  } */
 
   .card-img {
     width: 279px;
